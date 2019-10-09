@@ -7,9 +7,9 @@ Now this is a first alpha version, just for test the hardware.
 We use modified ServoPi library from here (ServoPi.py file):
 https://github.com/abelectronicsuk/ABElectronics_Python_Libraries
 
-keyboard module is used for control, so it requires root privileges
+The `keyboard` module is used for control in 'play'  mode, so it requires root privileges.
 
-for dev install we need prepare environment on raspberry pi:
+For dev install we need to prepare environment on a raspberry pi:
 ```bash
 sudo apt-get update
 sudo apt-get install -y git net-tools wget curl python3 python3-venv python3-pip mc
@@ -20,13 +20,13 @@ cd ~/catty-venv/
 pip3 install smbus2 keyboard RPi.GPIO
 ```
 
-and download the project
+and download the project.
 ```bash
 git clone https://github.com/eugenosm/robo-cat.git
 ```
 
-the main file is `catty.py`
-usage:
+The main file is `catty.py`.
+Usage:
 ```bash
 sudo python3 catty.py play 
  start robot and control it with 'wsad'. exit is '~' key
