@@ -31,7 +31,7 @@ usage:
 sudo python3 catty.py play 
  start robot and control it with 'wsad'. exit is '~' key
  
-python3 catty.py adjust channel position
+python3 catty.py adjust <channel> <position>
  for diagnostic/adjust pourpose we can set any of 16 servos to any position
  channel - 1..16
  position 0..180 degree  
