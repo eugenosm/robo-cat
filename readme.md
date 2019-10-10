@@ -50,3 +50,4 @@ python3 catty.py adjust <channel> <position>
 
 #### Step and leg geometry drafts
 
+![Step and leg geometry drafts](doc/step and leg geometry.jpg)
